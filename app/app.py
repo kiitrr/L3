@@ -23,3 +23,12 @@ class Cone(Shape):
     def dump(self):
         """Метод для вывода объема конуса."""
         print(f"Объем конуса с радиусом {self.__radius} и высотой {self.__height} равен {self.volume()}")
+      # app/shape.py
+class Shape:
+    def __init__(self):
+        self.__name = "Shape"  
+
+    @staticmethod
+    def about():
+        print("Команда разработки: Программа расчета объема конуса.")
+
