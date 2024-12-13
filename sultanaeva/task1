@@ -1,0 +1,13 @@
+
+class ElementS:
+    def __init__(self, name, symbol, number):
+        self.name = name          # Атрибут
+        self.symbol = symbol      # Атрибут
+        self.number = number      # Атрибут
+
+    def dump(self):
+        print(f"Название: {self.name}, Символ: {self.symbol}, Атомный номер: {self.number}")
+
+titan = ElementS("Титан", "Ti", 22)
+
+titan.dump()
